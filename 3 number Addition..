@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class MyClass{
+    public static void main(String[] args){
+        int a,b,c,sum;
+        Scanner myObj=new Scanner(System.in);
+        System.out.println("Type a number:");
+        a=myObj.nextInt();
+        System.out.println("Type a number:");
+        b=myObj.nextInt();
+        System.out.println("Type a number:");
+        c=myObj.nextInt();
+        sum=a+b+c;
+
+        System.out.println("Sum is:" +sum);
+    }
+}
